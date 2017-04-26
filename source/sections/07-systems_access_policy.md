@@ -20,16 +20,16 @@ Access to Datica systems and application is limited for all users, including but
 
 ### 7.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 164.308a4iiC Access Establishment and Modification
-* 164.308a3iiB Workforce Clearance Procedures
-* 164.308a4iiB Access Authorization
-* 164.312d Person or Entity Authentication
-* 164.312a2i Unique User Identification
-* 164.308a5iiD Password Management
-* 164.312a2iii Automatic Logoff
-* 164.310b Workstation Use
-* 164.310c Workstation Security
-* 164.308a3iiC Termination Procedures
+* 164.308(a)(4)(ii)(C) Access Establishment and Modification
+* 164.308(a)(3)(ii)(B) Workforce Clearance Procedures
+* 164.308(a)(4)(ii)(B) Access Authorization
+* 164.312(d) Person or Entity Authentication
+* 164.312(a)(2)(i) Unique User Identification
+* 164.308(a)(5)(ii)(D) Password Management
+* 164.312(a)(2)(iii) Automatic Logoff
+* 164.310(b) Workstation Use
+* 164.310(c) Workstation Security
+* 164.308(a)(3)(ii)(C) Termination Procedures
 
 ## 7.2 Access Establishment and Modification
 
