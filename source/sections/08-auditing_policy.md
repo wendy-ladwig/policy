@@ -27,12 +27,12 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 
 ### 8.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 45 CFR §164.308(a)(1)(ii)(D) - Information System Activity Review
-* 45 CFR §164.308(a)(5)(ii)(B) & &lpar;C&rpar; - Protection from Malicious Software & Log-in Monitoring
-* 45 CFR §164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
-* 45 CFR §164.312(b) - Audit Controls
-* 45 CFR §164.312&lpar;c&rpar;(2) - Mechanism to Authenticate ePHI
-* 45 CFR §164.312(e)(2)(i) - Integrity Controls
+* 164.308(a)(1)(ii)(D) - Information System Activity Review
+* 164.308(a)(5)(ii)(B) & &lpar;C&rpar; - Protection from Malicious Software & Log-in Monitoring
+* 164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
+* 164.312(b) - Audit Controls
+* 164.312&lpar;c&rpar;(2) - Mechanism to Authenticate ePHI
+* 164.312(e)(2)(i) - Integrity Controls
 
 ## 8.2 Auditing Policies
 
