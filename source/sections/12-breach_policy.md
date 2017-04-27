@@ -17,7 +17,7 @@ In the case of a breach, Datica shall notify all affected Customers. It is the r
 
 ### 12.1.2 Applicable Standards from the HIPAA Security Rule
 
-* Security Incident Procedures - 164.308(a)(6)(i)
+* 164.308(a)(6)(i) - Security Incident Procedures
 * HITECH Notification in the Case of Breach - 13402(a) and 13402(b)
 * HITECH Timeliness of Notification - 13402(d)(1)
 * HITECH Content of Notification - 13402(f)(1)
