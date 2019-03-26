@@ -2,7 +2,7 @@
 
 Datica recognizes that media containing ePHI may be reused when appropriate steps are taken to ensure that all stored ePHI has been effectively rendered inaccessible. Destruction/disposal of ePHI shall be carried out in accordance with federal and state law. The schedule for destruction/disposal shall be suspended for ePHI involved in any open investigation, audit, or litigation.
 
-Datica utilizes dedicated hardware from Subcontractors. ePHI is only stored on SSD volumes in our hosted environment. All SSD volumes utilized by Datica and Datica Customers are encrypted. Datica does not use, own, or manage any mobile devices, SD cards, or tapes that have access to ePHI.
+ePHI is only stored in our hosted environment using encrypted storage. Datica does not use, own, or manage any mobile devices, SD cards, or tapes that have access to ePHI.
 
 ## 14.1 Applicable Standards
 
