@@ -1,6 +1,6 @@
 # 11. Incident Response Policy
 
-Datica implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
+Datica implements an information security incident response process to consistently detect, respond to, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
 
 The incident response process addresses:
 
@@ -9,7 +9,7 @@ The incident response process addresses:
 * Establishment of procedures to respond to media inquiries;
 * Establishment of clear procedures for identifying, responding, assessing, analyzing, and follow-up of information security incidents;
 * Workforce training, education, and awareness on information security incidents and required responses; and
-* Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
+* Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders.
 
 *Note:* These policies were adapted from work by the [HIPAA Collaborative of Wisconsin Security Networking Group](http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc). Refer to the linked document for additional copyright information.
 
@@ -58,8 +58,8 @@ Datica employees must report any unauthorized or suspicious activity seen on pro
    2. Email;
    3. Phone call;
    4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
-   5. Secure Chat.
-   6. Anonymously through workforce members desired channels.
+   5. Secure Chat;
+   6. Anonymously through workforce member's desired channels.
 2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
 3. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
    1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
@@ -87,7 +87,7 @@ In this Phase, Datica's IT department attempts to contain the security incident.
    3. Determine the relative integrity and the appropriateness of backing the system up.
    4. If appropriate, back up the system.
    5. Change the password(s) to the affected system(s).
-   6. Determine whether it is safe to continue operations with the affect system(s).
+   6. Determine whether it is safe to continue operations with the affected system(s).
    7. If it is safe, allow the system to continue to function;
       1. Complete any documentation relative to the security incident on the [SIR Form](sections/sir-form.doc).
       2. Move to Phase V, Follow-up.
@@ -141,7 +141,7 @@ The Follow-up Phase represents the review of the security incident to look for "
 
 ### 11.2.6 Periodic Evaluation
 
-It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the Datica's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
+It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding Datica's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
 
 ## 11.3 Security Incident Response Team (SIRT)
 
@@ -149,4 +149,3 @@ Current members of the Datica SIRT:
 
 * Security Officer
 * Privacy Officer
-* VP of Engineering

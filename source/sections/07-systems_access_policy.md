@@ -1,6 +1,6 @@
 # 7. System Access Policy
 
-Access to Datica systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
+Access to Datica systems and applications is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, and consultants. Access by any other entity is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized use or access of the organization's information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
 
 ## 7.1 Applicable Standards
 
@@ -20,40 +20,40 @@ Access to Datica systems and application is limited for all users, including but
 
 ### 7.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 164.308a4iiC Access Establishment and Modification
-* 164.308a3iiB Workforce Clearance Procedures
-* 164.308a4iiB Access Authorization
-* 164.312d Person or Entity Authentication
-* 164.312a2i Unique User Identification
-* 164.308a5iiD Password Management
-* 164.312a2iii Automatic Logoff
-* 164.310b Workstation Use
-* 164.310c Workstation Security
-* 164.308a3iiC Termination Procedures
+* 164.308(a)(4)(ii)(C) Access Establishment and Modification
+* 164.308(a)(3)(ii)(B) Workforce Clearance Procedures
+* 164.308(a)(4)(ii)(B) Access Authorization
+* 164.312(d) Person or Entity Authentication
+* 164.312(a)(2)(i) Unique User Identification
+* 164.308(a)(5)(ii)(D) Password Management
+* 164.312(a)(2)(iii) Automatic Logoff
+* 164.310(b) Workstation Use
+* 164.310(c) Workstation Security
+* 164.308(a)(3)(ii)(C) Termination Procedures
 
 ## 7.2 Access Establishment and Modification
 
-1. Requests for access to Datica Platform systems and applications is made formally using the following process:
-  1. The Datica workforce member, or their manager, initiates the access request by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
+1. Requests for access to Datica Platform systems and applications are made formally using the following process:
+  1. A Datica workforce member initiates the access request by creating an Issue in the Datica Quality Management System.
      * User identities must be verified prior to granting access to new accounts.
      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
      * For new accounts, the method used to verify the user's identity must be recorded on the Issue.
-  2. The Security Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
-  3. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer then grants requested access.
+  2. The Security Officer or Privacy Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
+  3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
+  4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer or Privacy Officer then grants requested access.
      * New accounts will be created with a temporary secure password that meets all requirements from [§7.12](#7.12-password-management), which must be changed on the initial login.
      * All password exchanges must occur over an authenticated channel.
      * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
-     * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Datica employee at the discretion of the Security Officer.
-2. Access is not granted until receipt, review, and approval by the Datica Security Officer;
+     * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Datica employee at the discretion of the Security Officer or Privacy Officer .
+2. Access is not granted until receipt, review, and approval by the Datica Security Officer or Privacy Officer.
 3. The request for access is retained for future reference.
-4. All access to Datica systems and services are reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
-   1. The Security Officer initiates the review of user access by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
-   2. The Security Officer, or a Privacy Officer, is assigned to review levels of access for each Datica workforce member.
+4. All access to Datica systems and services is reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
+   1. The Security Officer initiates the review of user access by creating an Issue in the Datica Quality Management System.
+   2. The Security Officer is assigned to review levels of access for each Datica workforce member.
    3. If user access is found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the Issue is then reviewed again.
    4. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
    5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
-   6. Review of user access is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
+   6. Review of user access is monitored on a quarterly basis using the Quality Management System reporting to assess compliance with above policy.
 5. Any Datica workforce member can request change of access using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 6. Access to production systems is controlled using centralized user management and authentication.
 7. Temporary accounts are not used unless absolutely necessary for business purposes.
@@ -62,7 +62,7 @@ Access to Datica systems and application is limited for all users, including but
 8. In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of Datica Customers to define, and not Datica.
 9. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
    * For production systems, this is enforced by creating non-privileged user accounts that must invoke `sudo` to perform privileged tasks.
-   * Rights for privileged accounts are granted by the Security Officer using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
+   * Rights for privileged accounts are granted by the Security Officer or Privacy Officer using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 10. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 11. Generic accounts are not allowed on Datica systems.
 12. Access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
@@ -80,7 +80,7 @@ Access to Datica systems and application is limited for all users, including but
 
 ## 7.4 Access Authorization
 
-1. Role based access categories for each Datica system and application are pre-approved by the Security Officer or VP of Engineering.
+1. Role based access categories for each Datica system and application are pre-approved by the Security Officer, or an authorized delegate of the Security Officer.
 2. Datica utilizes hardware and software firewalls to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
 
 ## 7.5 Person or Entity Authentication
@@ -112,7 +112,7 @@ Access to Datica systems and application is limited for all users, including but
 All workstations at Datica are company owned, and all are laptop Apple products running Mac OSX or Linux.
 
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
-2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
+2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through the organization's system.
 3. Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization's best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
 4. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
 5. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.
