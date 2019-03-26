@@ -12,7 +12,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
-  activate :directory_indexes
 end
 
 set :markdown_engine, :redcarpet
@@ -25,9 +24,3 @@ set :url_root, 'https://policy.datica.com'
 activate :search_engine_sitemap
 
 page "/sitemap.xml", :layout => false
-
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
