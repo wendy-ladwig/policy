@@ -20,6 +20,6 @@ In order to preserve the integrity of data that Datica stores, processes, or tra
 2. OSSEC generates alerts to analyze and investigate suspicious activity or suspected violations.
 3. OSSEC monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 4. Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DoS attacks).
-5. Datica firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
+5. Datica firewalls monitor all incoming traffic to detect potential denial-of-service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial-of-service attacks.
 6. All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
 7. Datica utilizes redundant firewall on network perimeters.
