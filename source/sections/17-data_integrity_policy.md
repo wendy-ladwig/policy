@@ -12,7 +12,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ### 17.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 164.308(a)(8) - Evaluation
+* 164.308(a)(8) - HIPAA Security Rule Evaluation
 
 ## 17.2 Disabling Non-Essential Services
 
