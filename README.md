@@ -66,3 +66,15 @@ Each policy is included as its own markdown file in case you want to cherry-pick
 * [Key Definitions](source/sections/22-key_definitions.md)
 * [Datica HIPAA Business Associate Agreement (“BAA”)](source/sections/23-datica_hipaa_business_associate_agreement.md)
 * [HIPAA Mappings to Datica Controls](source/sections/24-hipaa_mapping_to_datica_controls.md)
+
+### How to build the docs
+
+- Download this repository
+- cd `policies`
+- `bundle install`
+
+*Commands*
+- `rake run` will run the site locally
+- `rake sass` will compile any changes made to `assets/css/styles.scss`
+- `rake build` will build the static site into the `build` directory
+- `rake serve_static` will create a simple HTTP server for the `build` directory
