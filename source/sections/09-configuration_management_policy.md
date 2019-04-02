@@ -20,7 +20,7 @@ Datica standardizes and automates configuration management through the use of Ch
 4. All changes to production systems are tested before they are implemented in production.
 5. For all changes, Datica will define and implement fallback procedures, including procedures and responsibilities for aborting and recovering from unsuccessful changes and unforeseen events.
 6. Implementation of approved changes are only performed by authorized personnel.
-7. Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related products and services, is hosted on GitLab.
+7. Datica will maintain an accurate inventory of in-scope assets located in the organization's facilities.  When multiple inventories exist, Datica will ensure that assets are not unnecessarily duplicated across inventories and will ensure their respective content is aligned. Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related products and services, is hosted on GitLab.
    * All systems are categorized as production and utility to differentiate based on criticality.
    * The Security Officer maintains scripts to generate inventory lists on demand using APIs provided by each cloud provider.
    * These scripts are used to generate the diagrams and asset lists required by the Risk Assessment phase of Datica's Risk Management procedures ([§4.3.1](#4.3-risk-management-procedures)).
