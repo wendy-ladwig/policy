@@ -121,6 +121,7 @@ All workstations at Datica are company owned, and all are laptop Apple products 
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Datica Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.datica.com) and have completed this training (https://training.datica.com/). Please contact us if you have problems with this - privacy@datica.com.*
 10. Datica will authorize and restrict the use of mobile code (e.g., Java, JavaScript, ActiveX, PDF, postscript, Shockwave, and Flash), through the use of automated controls (e.g., browser settings) on the organization's workstations (and mobile devices, if applicable)
+11. Datica will regularly update mobile code protection, including anti-virus and anti-spyware, on the organization's workstations (and mobile devices, if appplicable)
 
 ## 7.9 Wireless Access Use
 
