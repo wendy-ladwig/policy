@@ -34,6 +34,7 @@ Datica standardizes and automates configuration management through the use of Ch
     * Windows-based systems use a baseline Active Directory group policy configuration in conjunction with the Windows Server 2012 STIG.
     * Linux-based systems use a Red Hat Enterprise Linux STIG which has been adapted for Ubuntu and improved based on the results of subsequent vulnerability scans and risk assessments.
 14. Clocks are continuously synchronized to an authoritative source across all systems using NTP or a platform-specific equivalent. Modifying time data on systems is restricted.
+15. Datica will perform annual checks on the technical security configuration of systems, either manually by an individual with experience with the systems, and/or with the assistance of automated software tools.  The organization will take appropriate action if non-compliance is found.
 
 ## 9.3 Provisioning Production Systems
 
