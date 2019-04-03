@@ -18,7 +18,7 @@ Datica standardizes and automates configuration management through the use of Ch
 2. No systems are deployed into Datica environments without approval of the Datica CTO.
 3. All changes to production systems, network devices, and firewalls are approved by the Datica CTO before they are implemented to assure they comply with business and security requirements.
 4. All changes to production systems are tested before they are implemented in production.
-5. For all changes, Datica will define and implement fallback procedures, including procedures and responsibilities for aborting and recovering from unsuccessful changes and unforeseen events.
+5. For all changes, Datica will define and implement rollback/fallback procedures, including procedures and responsibilities for aborting and recovering from unsuccessful changes and unforeseen events. Datica will maintain an audit log of all updates to operational program libraries (production software components).
 6. Implementation of approved changes are only performed by authorized personnel.
 7. Datica will maintain an accurate inventory of in-scope assets located in the organization's facilities.  When multiple inventories exist, Datica will ensure that assets are not unnecessarily duplicated across inventories and will ensure their respective content is aligned. Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related products and services, is hosted on GitLab.
    * All systems are categorized as production and utility to differentiate based on criticality.
