@@ -127,10 +127,11 @@ All workstations at Datica are company owned, and all are laptop Apple products 
 
 1. Datica production systems are not accessible directly over wireless channels.
 2. Wireless access is disabled on all production systems.
-3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
+3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired. Datica monitors for unauthorized wireless access to Datica systems.
 4. Wireless networks managed within Datica non-production facilities (offices, etc.) are secured with the following configurations:
    * All data in transit over wireless is encrypted using WPA2 encryption;
    * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
+5. Datica prohibits installation of wireless access points (WAPs) unless explicitly authorized in writing by the Datica Security Officer or designated representative.
 
 ## 7.10 Employee Termination Procedures
 
