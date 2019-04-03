@@ -66,3 +66,8 @@ Production systems that create, receive, store, or transmit Customer data (herea
 4. Transmission encryption keys are limited to use for one year and then must be regenerated.
 5. In the case of Datica provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
 6. System logs of all transmissions of Production Data access. These logs must be available for audit.
+
+## 17.10 Input Validation
+
+1. Datica’s information systems check the validity of organization-defined information inputs for accuracy, completeness, validity, and authenticity as close to the point of origin as possible.  For in-house developed software, Datica ensures that explicit error checking is performed and documented for all input, including for size, data type, and acceptable ranges or formats.
+
