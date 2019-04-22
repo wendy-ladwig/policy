@@ -12,7 +12,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ### 17.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 164.308(a)(8) - Evaluation
+* 164.308(a)(8) - HIPAA Security Rule Evaluation
 
 ## 17.2 Disabling Non-Essential Services
 
@@ -24,7 +24,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ## 17.4 Prevention of Malware on Production Systems
 
-1. All Production Systems must have OSSEC running, and set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
+1. All Production Systems must have OSSEC running, and set to scan system every 2 hours and at reboot to assure no malware is present. Detected malware is evaluated and removed.
 2. Virus scanning software is run on all Production Systems for anti-virus protection.
    * Hosts are scanned daily for malicious binaries in critical system paths.
    * The malware signature database is checked hourly and automatically updated if new signatures are available.
@@ -45,7 +45,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 ## 17.7 Production System Security
 
 1. System, network, and server security is managed and maintained by the Security Officer in conjunction with the Dev Ops team.
-2. Up to date system lists and architecture diagrams are kept for all production environments.
+2. Up-to-date system lists and architecture diagrams are kept for all production environments.
 3. Access to Production Systems is controlled using centralized tools and two-factor authentication.
 
 ## 17.8 Production Data Security

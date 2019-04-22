@@ -12,8 +12,6 @@
 
 * *Access*: Means the ability or the means necessary to read, write, modify, or communicate data/ information or otherwise use any system resource.
 
-* *BaaS*: Backend-as-a-Service. A set of APIs, and associated SDKs, for rapid mobile and web application development. APIs offer the ability to create users, do authentication, store data, and store files.
-
 * *Backup*: The process of making an electronic copy of data stored in a computer system. This can either be complete, meaning all data and programs, or incremental, including just the data that changed from the previous backup.
 
 * *Backup Service*: A logging service for unifying system and application logs, encrypting them, and providing a dashboard for them. Offered with all Datica Add-ons and as an option for CPaaS Customers.

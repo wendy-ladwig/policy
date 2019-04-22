@@ -20,7 +20,7 @@ This policy establishes the scope, objectives, and procedures of Datica's inform
 
 1. It is the policy of Datica to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the Datica's information security program.
 2. Risk analysis and risk management are recognized as important components of Datica's corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
-   1. Risk assessments are done throughout product life cycles:
+   1. Risk assessments are done throughout product life cycles;
    2. Before the integration of new system technologies and before changes are made to Datica physical safeguards; and
       * These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of the Datica Platform.
    3. While making changes to Datica physical equipment and facilities that introduce new, untested configurations.
@@ -35,12 +35,12 @@ This policy establishes the scope, objectives, and procedures of Datica's inform
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Datica's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
-  1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating an Issue in the Datica Quality Manageement System.
+  1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating an Issue in the Datica Quality Management System.
   2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
   3. All findings are documented in an approved spreadsheet that is linked to the Issue.
   4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
-9. The Risk Management Procedure is monitored on a quarterly basis using the Quality Manageement System reporting to assess compliance with above policy.
+9. The Risk Management Procedure is monitored on a quarterly basis using the Quality Management System reporting to assess compliance with above policy.
 
 ## 4.3 Risk Management Procedures
 
@@ -105,7 +105,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * Output - Selected control(s)
 
 * Step 5. Assign Responsibility
-  * Identify the workforce members with the skills necessary to implement each of the specific controls outlined in the previous step, and assign their responsibilities. Also identify the equipment, training and other resources needed for the successful implementation of controls. Resources may include time, money, equipment, etc.
+  * Identify the workforce members with the skills necessary to implement each of the specific controls outlined in the previous step, and assign their responsibilities. Also identify the equipment, training, and other resources needed for the successful implementation of controls. Resources may include time, money, equipment, etc.
   * Output - List of resources, responsible persons and their assignments
 
 * Step 6. Develop Safeguard Implementation Plan
@@ -115,11 +115,11 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
     * The recommended feasible control(s) for each identified risk;
     * Required resources for implementation of selected controls;
     * Team member responsible for implementation of each control;
-    * Start date for implementation
+    * Start date for implementation;
     * Target date for completion of implementation;
     * Maintenance requirements.
   * The overall implementation plan provides a broad overview of the safeguard implementation, identifying important milestones and timeframes, resource requirements (staff and other individuals' time, budget, etc.), interrelationships between projects, and any other relevant information. Regular status reporting of the plan, along with key metrics and success indicators should be reported to Datica Senior Management.
-  * Individual project plans for safeguard implementation may be developed and contain detailed steps that resources assigned carry out to meet implementation timeframes and expectations. Additionally, consider including items in individual project plans such as a project scope, a list deliverables, key assumptions, objectives, task completion dates and project requirements.
+  * Individual project plans for safeguard implementation may be developed and contain detailed steps that assigned resources carry out to meet implementation timeframes and expectations. Additionally, consider including items in individual project plans such as a project scope, a list deliverables, key assumptions, objectives, task completion dates and project requirements.
   * Output - Safeguard Implementation Plan
 
 * Step 7. Implement Selected Controls
