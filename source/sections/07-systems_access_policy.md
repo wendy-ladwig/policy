@@ -1,6 +1,6 @@
 # 7. System Access Policy
 
-Access to Datica systems and application is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, and consultants. Access by any other entity is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
+Access to Datica systems and applications is limited for all users, including but not limited to workforce members, volunteers, business associates, contracted providers, and consultants. Access by any other entity is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized use or access of the organization's information systems. These safeguards have been established to address the HIPAA Security regulations including the following:
 
 ## 7.1 Applicable Standards
 
@@ -20,20 +20,20 @@ Access to Datica systems and application is limited for all users, including but
 
 ### 7.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 164.308a4iiC Access Establishment and Modification
-* 164.308a3iiB Workforce Clearance Procedures
-* 164.308a4iiB Access Authorization
-* 164.312d Person or Entity Authentication
-* 164.312a2i Unique User Identification
-* 164.308a5iiD Password Management
-* 164.312a2iii Automatic Logoff
-* 164.310b Workstation Use
-* 164.310c Workstation Security
-* 164.308a3iiC Termination Procedures
+* 164.308(a)(4)(ii)(C) Access Establishment and Modification
+* 164.308(a)(3)(ii)(B) Workforce Clearance Procedures
+* 164.308(a)(4)(ii)(B) Access Authorization
+* 164.312(d) Person or Entity Authentication
+* 164.312(a)(2)(i) Unique User Identification
+* 164.308(a)(5)(ii)(D) Password Management
+* 164.312(a)(2)(iii) Automatic Logoff
+* 164.310(b) Workstation Use
+* 164.310(c) Workstation Security
+* 164.308(a)(3)(ii)(C) Termination Procedures
 
 ## 7.2 Access Establishment and Modification
 
-1. Requests for access to Datica Platform systems and applications is made formally using the following process:
+1. Requests for access to Datica Platform systems and applications are made formally using the following process:
   1. A Datica workforce member initiates the access request by creating an Issue in the Datica Quality Management System.
      * User identities must be verified prior to granting access to new accounts.
      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
@@ -45,7 +45,7 @@ Access to Datica systems and application is limited for all users, including but
      * All password exchanges must occur over an authenticated channel.
      * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
      * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Datica employee at the discretion of the Security Officer or Privacy Officer .
-2. Access is not granted until receipt, review, and approval by the Datica Security Officer or Privacy Officer ;
+2. Access is not granted until receipt, review, and approval by the Datica Security Officer or Privacy Officer.
 3. The request for access is retained for future reference.
 4. All access to Datica systems and services is reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
    1. The Security Officer initiates the review of user access by creating an Issue in the Datica Quality Management System.
@@ -112,7 +112,7 @@ Access to Datica systems and application is limited for all users, including but
 All workstations at Datica are company owned, and all are laptop Apple products running Mac OSX or Linux.
 
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
-2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
+2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through the organization's system.
 3. Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization's best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
 4. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
 5. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.

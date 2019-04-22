@@ -12,7 +12,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ### 17.1.2 Applicable Standards from the HIPAA Security Rule
 
-* 164.308(a)(8) - Evaluation
+* 164.308(a)(8) - HIPAA Security Rule Evaluation
 
 ## 17.2 Disabling Non-Essential Services
 
@@ -24,7 +24,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ## 17.4 Prevention of Malware on Production Systems
 
-1. All Production Systems must have OSSEC running, and set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
+1. All Production Systems must have OSSEC running, and set to scan system every 2 hours and at reboot to assure no malware is present. Detected malware is evaluated and removed.
 2. Virus scanning software is run on all Production Systems for anti-virus protection.
    * Hosts are scanned daily for malicious binaries in critical system paths.
    * The malware signature database is checked hourly and automatically updated if new signatures are available.
@@ -34,7 +34,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 ## 17.5 Patch Management
 
 1. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
-    * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to Customer systems.
+    * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at its own discretion, notify and recommend updates to Customer systems.
 2. Administrators subscribe to mailing lists to ensure that they are using current versions of all Datica-managed software on Production Systems.
 
 ## 17.6 Intrusion Detection and Vulnerability Scanning
@@ -45,7 +45,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 ## 17.7 Production System Security
 
 1. System, network, and server security is managed and maintained by the Security Officer in conjunction with the Dev Ops team.
-2. Up to date system lists and architecture diagrams are kept for all production environments.
+2. Up-to-date system lists and architecture diagrams are kept for all production environments.
 3. Access to Production Systems is controlled using centralized tools and two-factor authentication.
 
 ## 17.8 Production Data Security
