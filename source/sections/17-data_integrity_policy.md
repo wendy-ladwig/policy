@@ -34,7 +34,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 ## 17.5 Patch Management
 
 1. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
-    * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at its own discretion, notify and recommend updates to Customer systems.
+    * In the case of CPaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Datica will, at it's own discretion, notify and recommend updates to Customer systems.
 2. Administrators subscribe to mailing lists to ensure that they are using current versions of all Datica-managed software on Production Systems.
 
 ## 17.6 Intrusion Detection and Vulnerability Scanning
@@ -66,3 +66,13 @@ Production systems that create, receive, store, or transmit Customer data (herea
 4. Transmission encryption keys are limited to use for one year and then must be regenerated.
 5. In the case of Datica provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
 6. System logs of all transmissions of Production Data access. These logs must be available for audit.
+
+## 17.10 Input Validation
+
+1. Datica’s information systems check the validity of organization-defined information inputs for accuracy, completeness, validity, and authenticity as close to the point of origin as possible.  For in-house developed software, Datica ensures that explicit error checking is performed and documented for all input, including for size, data type, and acceptable ranges or formats.
+
+## 17.11 Electronic Messaging
+
+1. Datica will address legal considerations for sharing data via external services, including messaging and file sharing services.
+2. Datica uses electronic signatures to prevent falsification of customer contracts and other legal documents.
+3. Employees are prohibited from using messaging services for exchanging sensitive data, including ePHI.

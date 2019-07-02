@@ -120,15 +120,18 @@ All workstations at Datica are company owned, and all are laptop Apple products 
 7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Datica Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.datica.com) and have completed this training (https://training.datica.com/). Please contact us if you have problems with this - privacy@datica.com.*
+10. Datica will authorize and restrict the use of mobile code (e.g., Java, JavaScript, ActiveX, PDF, postscript, Shockwave, and Flash), through the use of automated controls (e.g., browser settings) on the organization's workstations (and mobile devices, if applicable)
+11. Datica will regularly update mobile code protection, including anti-virus and anti-spyware, on the organization's workstations (and mobile devices, if appplicable)
 
 ## 7.9 Wireless Access Use
 
 1. Datica production systems are not accessible directly over wireless channels.
 2. Wireless access is disabled on all production systems.
-3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
+3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired. Datica monitors for unauthorized wireless access to Datica systems.
 4. Wireless networks managed within Datica non-production facilities (offices, etc.) are secured with the following configurations:
    * All data in transit over wireless is encrypted using WPA2 encryption;
    * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Datica Security Officer.
+5. Datica prohibits installation of wireless access points (WAPs) unless explicitly authorized in writing by the Datica Security Officer or designated representative.
 
 ## 7.10 Employee Termination Procedures
 
@@ -183,9 +186,9 @@ The password-reset email inbox is used to track and store password reset request
    * On production Windows bastions, local drive mappings are disabled by Group Policy settings.
    * Configuration settings for enforcing these technical controls are managed by Datica's configuration management tooling, Chef/Salt.
 
-## 7.14 PaaS Customer Access to Systems
+## 7.14 CPaaS Customer Access to Systems
 
-Datica grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Datica hosted systems.
+Datica grants CPaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to Datica hosted systems.
 
 In the case of data migration, Datica does, on a case by case basis, support customers in importing data. In these cases Datica requires that all data is secured and encrypted in transit, such as by using SFTP or SCP for transferring files.
 

@@ -41,7 +41,7 @@ This policy applies to all Datica Add-on systems that store, transmit, or proces
    * Assign the task of reviewing the audit reports to the workforce member responsible for the application, system, or network, the Privacy Officer, or any other individual determined to be appropriate for the task;
    * Organize and provide oversight to a team structure charged with audit compliance activities (e.g., parameters, frequency, sample sizes, report formats, evaluation, follow-up, etc.).
    * All connections to Datica are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis.
-2. Datica's auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Customers, Application and User level auditing is the responsibility of the Customer; Datica provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
+2. Datica's auditing processes shall address access and activity at the following levels listed below. In the case of CPaaS Customers, Application and User level auditing is the responsibility of the Customer; Datica provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the CPaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
    * User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
    * Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
    * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Datica utilizes file system monitoring from OSSEC to assure the integrity of file system data.
@@ -107,12 +107,12 @@ This policy applies to all Datica Add-on systems that store, transmit, or proces
 3. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges.
    * Separate systems are used to apply the security principle of "separation of duties" to protect audit trails from hackers.
    * Datica logging servers include Elasticsearch, Logstash, and Kibana (ELK) as part of their baseline configuration to ease reviewing of audit log data. The ELK toolkit provides message summarization, reduction, and reporting functionality.
-4. For PaaS Customers choosing to use Datica logging services, log data will be separated from the log data of other Datica Customers.
+4. For CPaaS Customers choosing to use Datica logging services, log data will be separated from the log data of other Datica Customers.
 
 ## 8.7 Workforce Training, Education, Awareness and Responsibilities
 
 1. Datica workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and ePHI. Datica's commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. Datica workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member's failure to comply with organizational policies.
-2. Datica Customers are provided with necessary information to understand Datica auditing capabilities, and PaaS Customers can choose the level of logging and auditing that Datica will implement on their behalf.
+2. Datica Customers are provided with necessary information to understand Datica auditing capabilities, and CPaaS Customers can choose the level of logging and auditing that Datica will implement on their behalf.
 
 ## 8.8 External Audits of Information Access and Activity
 
@@ -131,7 +131,7 @@ This policy applies to all Datica Add-on systems that store, transmit, or proces
    * Available storage space.
 2. Reports summarizing audit activities shall be retained for a period of six years.
 3. Audit log data is retained locally on the audit log server for a one-month period. Beyond that, log data is encrypted and moved to warm storage (currently S3) using automated scripts, and is retained for a minimum of one year.
-4. For PaaS Customers, they choose the length of backup retention and availability that Datica will implement and enforce.
+4. For CPaaS Customers, they choose the length of backup retention and availability that Datica will implement and enforce.
 
 ## 8.10 Potential Trigger Events
 

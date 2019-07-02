@@ -37,9 +37,10 @@ Datica makes every effort to assure all 3rd party organizations are compliant an
      2. The Security Officer, or Privacy Officer, is assigned to review the SLA and performance of 3rd parties. The list of current 3rd parties, including contact information, is also reviewed to assure it is up to date and complete.
      3. SLA, security, and compliance performance is documented in the Issue.
      4. Once the review is completed and documented, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-9. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
-10. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
-11. For all partners, Datica reviews activity annually to assure partners are in line with SLAs in contracts with Datica.
-12. SLA review is monitored on a quarterly basis using the Quality Management System reporting to assess compliance with above policy.
-13. The 3rd Party Assurance process is reviewed annually and updated to include any necessary changes.
-14. Changes to the 3rd Party Assurance process will also be made on an ad-hoc basis in cases where operational changes require it or if the process is found lacking. 
+9. Datica will ensure that procedures for assigning and monitoring the use of all corporate assets assigned to contractors are documented within contracts.  Datica will also ensure that if corporate assets are assigned to volunteers, written agreements specify how and when the property will be inventoried and how it will be returned upon completion of the assignment.
+10. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
+11. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
+12. For all partners, Datica reviews activity annually to assure partners are in line with SLAs in contracts with Datica.
+13. SLA review is monitored on a quarterly basis using the Quality Management System reporting to assess compliance with above policy.
+14. The 3rd Party Assurance process is reviewed annually and updated to include any necessary changes.
+15. Changes to the 3rd Party Assurance process will also be made on an ad-hoc basis in cases where operational changes require it or if the process is found lacking. 

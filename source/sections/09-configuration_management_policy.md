@@ -18,22 +18,25 @@ Datica standardizes and automates configuration management through the use of Ch
 2. No systems are deployed into Datica environments without approval of the Datica CTO.
 3. All changes to production systems, network devices, and firewalls are approved by the Datica CTO before they are implemented to assure they comply with business and security requirements.
 4. All changes to production systems are tested before they are implemented in production.
-5. Implementation of approved changes are only performed by authorized personnel.
-6. Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related products and services, is hosted on GitLab.
+5. For all changes, Datica will define and implement rollback/fallback procedures, including procedures and responsibilities for aborting and recovering from unsuccessful changes and unforeseen events. Datica will maintain an audit log of all updates to operational program libraries (production software components).
+6. Implementation of approved changes are only performed by authorized personnel.
+7. Datica will maintain an accurate inventory of in-scope assets located in the organization's facilities.  When multiple inventories exist, Datica will ensure that assets are not unnecessarily duplicated across inventories and will ensure their respective content is aligned. Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related products and services, is hosted on GitLab.
    * All systems are categorized as production and utility to differentiate based on criticality.
    * The Security Officer maintains scripts to generate inventory lists on demand using APIs provided by each cloud provider.
    * These scripts are used to generate the diagrams and asset lists required by the Risk Assessment phase of Datica's Risk Management procedures ([§4.3.1](#4.3-risk-management-procedures)).
    * After every use of these scripts, the Security Officer will verify their accuracy by reconciling their output with recent changes to production systems. The Security Officer will address any discrepancies immediately with changes to the scripts.
-7. All frontend functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers or containers.
-8. All software and systems are tested using unit tests and end to end tests.
-9. All committed code is reviewed using pull requests to assure software code quality and proactively detect potential security issues in development.
-10. Datica utilizes development and staging environments that mirror production to assure proper function.
-11. Datica also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
-12. All formal change requests require unique ID and authentication.
-13. Datica uses the [Security Technical Implementation Guides (STIGs)](http://iase.disa.mil/stigs/) published by the Defense Information Systems Agency as a baseline for hardening systems.
+8. Datica will show evidence of formal migration plans, approved by management, to replace systems or system components that are in production but are no longer supported by the developer, vendor, or manufacturer.
+9. All frontend functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers or containers.
+10. All software and systems are tested using unit tests and end to end tests.
+11. All committed code is reviewed using pull requests to assure software code quality and proactively detect potential security issues in development.
+12. Datica utilizes development and staging environments that mirror production to assure proper function.
+13. Datica also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
+14. All formal change requests require unique ID and authentication.
+15. Datica uses the [Security Technical Implementation Guides (STIGs)](http://iase.disa.mil/stigs/) published by the Defense Information Systems Agency as a baseline for hardening systems.
     * Windows-based systems use a baseline Active Directory group policy configuration in conjunction with the Windows Server 2012 STIG.
     * Linux-based systems use a Red Hat Enterprise Linux STIG which has been adapted for Ubuntu and improved based on the results of subsequent vulnerability scans and risk assessments.
-14. Clocks are continuously synchronized to an authoritative source across all systems using NTP or a platform-specific equivalent. Modifying time data on systems is restricted.
+16. Clocks are continuously synchronized to an authoritative source across all systems using NTP or a platform-specific equivalent. Modifying time data on systems is restricted.
+17. Datica will perform annual checks on the technical security configuration of systems, either manually by an individual with experience with the systems, and/or with the assistance of automated software tools.  The organization will take appropriate action if non-compliance is found.
 
 ## 9.3 Provisioning Production Systems
 
